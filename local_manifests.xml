@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Generated using sounddrill31/actions_generate_local_manifests -->
+
+    <!-- Remotes -->
+    <remote name="TheMuppets" fetch="https://github.com/TheMuppets" clone-depth="1" />
+    <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
+
+    <!-- Removals -->
+
+    <!-- Repos -->
+    <!-- Device -->
+    <project path="device/xiaomi/miatoll" name="android_device_xiaomi_miatoll" remote="LineageOS" revision="lineage-22.2" />
+
+    <!-- Device - Common -->
+    <project path="device/xiaomi/sm6250-common" name="android_device_xiaomi_sm6250-common" remote="LineageOS" revision="lineage-22.2" />
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/sm6250" name="android_kernel_xiaomi_sm6250" remote="LineageOS" revision="lineage-22.2" />
+
+    <!-- Vendor -->
+    <project path="vendor/xiaomi/miatoll" name="proprietary_vendor_xiaomi_miatoll" remote="TheMuppets" revision="lineage-22.2" />
+
+    <!-- Vendor - Common -->
+    <project path="vendor/xiaomi/sm6250-common" name="proprietary_vendor_xiaomi_sm6250-common" remote="TheMuppets" revision="lineage-22.2" />
+
+    <!-- Hardware -->
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-22.2" />
+    <project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" remote="LineageOS" revision="lineage-22.2" />
+
+</manifest>
